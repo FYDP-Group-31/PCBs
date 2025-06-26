@@ -140,6 +140,296 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Small_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Bridged"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_1"
+				(arc
+					(start 0.762 0.254)
+					(mid 0 0.5696)
+					(end -0.762 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:Jumper_2_Small_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_0_1"
+				(arc
+					(start 0.762 1.0196)
+					(mid 0 1.2729)
+					(end -0.762 1.0196)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -677,10 +967,34 @@
 		)
 	)
 	(junction
+		(at 88.9 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2119f643-4428-4cf1-97be-97a980aa4030")
+	)
+	(junction
+		(at 104.14 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39cbf917-14c3-4c3f-acbc-f1d71d3def4b")
+	)
+	(junction
 		(at 166.37 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e74720f-76c2-4a65-838c-c093ae040966")
+	)
+	(junction
+		(at 111.76 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b931573f-7ca9-4f09-9193-99c0a6501a12")
+	)
+	(junction
+		(at 87.63 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d16b7bbf-e012-4fe5-8f84-43b16840e55d")
 	)
 	(wire
 		(pts
@@ -704,23 +1018,33 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 81.28) (xy 128.27 81.28)
+			(xy 96.52 81.28) (xy 128.27 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c0c1f71-d44f-4d5b-8683-9330fe918153")
+		(uuid "3090ab9c-8ea7-4c98-8bee-ae5d58c47d6e")
 	)
 	(wire
 		(pts
-			(xy 124.46 76.2) (xy 128.27 76.2)
+			(xy 96.52 72.39) (xy 96.52 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3cda1dbd-73da-4a7e-84cd-c66492d12ba5")
+		(uuid "4495bde9-0218-4b3f-95ee-213f341727d2")
+	)
+	(wire
+		(pts
+			(xy 111.76 91.44) (xy 128.27 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cd571e4-cf20-48f4-ae9e-fbed65cda93d")
 	)
 	(wire
 		(pts
@@ -734,6 +1058,26 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 91.44) (xy 111.76 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60dd1cf8-7d08-47bc-9b12-8e5285a909c8")
+	)
+	(wire
+		(pts
+			(xy 87.63 91.44) (xy 87.63 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67df2c94-3b32-4d89-81ef-73a5d56c1bd1")
+	)
+	(wire
+		(pts
 			(xy 163.83 76.2) (xy 168.91 76.2)
 		)
 		(stroke
@@ -744,13 +1088,33 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 91.44) (xy 128.27 91.44)
+			(xy 86.36 72.39) (xy 88.9 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7243178f-75ed-4044-8536-5f9bbb9abfbd")
+		(uuid "6f63d6da-911a-42e5-90e0-7294499bb517")
+	)
+	(wire
+		(pts
+			(xy 88.9 77.47) (xy 88.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71540358-8d39-4c1f-8470-fb3065c62cbf")
+	)
+	(wire
+		(pts
+			(xy 90.17 62.23) (xy 96.52 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "737f605c-a393-4288-8841-a9b2acc9f55b")
 	)
 	(wire
 		(pts
@@ -771,6 +1135,26 @@
 			(type default)
 		)
 		(uuid "84e9e7f2-6e75-49d1-8b19-89297f94f56d")
+	)
+	(wire
+		(pts
+			(xy 115.57 62.23) (xy 115.57 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87fdbee5-3558-405a-8051-74452b63b3de")
+	)
+	(wire
+		(pts
+			(xy 97.79 97.79) (xy 104.14 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953cf4c1-f7bf-4e4c-857d-4b595ec5da5a")
 	)
 	(wire
 		(pts
@@ -814,6 +1198,36 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 76.2) (xy 128.27 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a0da1c-e3b2-482c-986a-41456f89f8c9")
+	)
+	(wire
+		(pts
+			(xy 87.63 86.36) (xy 128.27 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3ced1d2-a17e-4d41-bf1f-68d7d4271778")
+	)
+	(wire
+		(pts
+			(xy 101.6 62.23) (xy 104.14 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0d71cf-8778-409f-886a-a8f5ea4c86cd")
+	)
+	(wire
+		(pts
 			(xy 120.65 73.66) (xy 128.27 73.66)
 		)
 		(stroke
@@ -821,6 +1235,26 @@
 			(type default)
 		)
 		(uuid "bdbcdda1-bdcc-4bc5-9f84-3126d986443d")
+	)
+	(wire
+		(pts
+			(xy 88.9 72.39) (xy 96.52 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be91b3a2-dc30-4cd2-ad26-2e5a05e755ac")
+	)
+	(wire
+		(pts
+			(xy 74.93 72.39) (xy 81.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0ed22c-7528-4d17-8b24-0b80d0c9a263")
 	)
 	(wire
 		(pts
@@ -834,13 +1268,33 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 86.36) (xy 128.27 86.36)
+			(xy 109.22 97.79) (xy 111.76 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5e621c6-d8a0-4361-b378-d884a90c8f53")
+		(uuid "cc055250-8694-4758-948e-a0fe78de2337")
+	)
+	(wire
+		(pts
+			(xy 73.66 86.36) (xy 80.01 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1eb57b6-44ad-46c8-989d-7d33059f1d3d")
+	)
+	(wire
+		(pts
+			(xy 85.09 86.36) (xy 87.63 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d349bf0a-74e0-4512-8c66-e7e934a6b15f")
 	)
 	(wire
 		(pts
@@ -854,6 +1308,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 67.31) (xy 104.14 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf1e383-d24a-462a-929f-3e964c525a8c")
+	)
+	(wire
+		(pts
 			(xy 163.83 81.28) (xy 168.91 81.28)
 		)
 		(stroke
@@ -862,19 +1326,28 @@
 		)
 		(uuid "df1784f8-0e7a-4e7b-ad9f-a08891ea7433")
 	)
-	(label "Out2"
-		(at 124.46 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 104.14 62.23) (xy 115.57 62.23)
 		)
-		(uuid "548bc9fe-f3b1-4464-9a96-38e042ad3bc3")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2fd42d8-60f4-48c4-89fe-cb6a3037f8a4")
+	)
+	(wire
+		(pts
+			(xy 111.76 102.87) (xy 111.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1ff1a6-d225-4b38-9bda-ece6c11a3fd0")
 	)
 	(label "Out3"
-		(at 124.46 86.36 0)
+		(at 73.66 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -882,10 +1355,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c920c955-9256-41c9-85e5-8ea7da7cc577")
+		(uuid "4a018d90-46cb-4148-b5f6-b6ddeb3c6fd6")
 	)
 	(label "Out4"
-		(at 124.46 91.44 0)
+		(at 97.79 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -893,10 +1366,21 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e8495054-4e97-44fb-8931-494b66ca0f2c")
+		(uuid "ae00509b-5c16-4278-87e0-1663250454b7")
+	)
+	(label "Out2"
+		(at 74.93 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf5bc140-1105-4cc2-a843-3d7cb58f7446")
 	)
 	(label "Out1"
-		(at 124.46 76.2 0)
+		(at 90.17 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1003,6 +1487,105 @@
 		(uuid "ef26c0c4-7c8c-4113-a9b9-01785d21dc11")
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 111.76 100.33 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0656e417-d56e-40fa-9c58-ee2b0e23e6bb")
+		(property "Reference" "JP50"
+			(at 113.03 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Open"
+			(at 113.03 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 111.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8ce440e-78f2-487a-badd-9ee15f8cde9d")
+		)
+		(pin "2"
+			(uuid "b6488779-2c17-4e46-81cf-dc693374599f")
+		)
+		(instances
+			(project "MCU_DAC_board"
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/1f7c13a1-90f8-47c2-a6ff-efab3982a41e"
+					(reference "JP58")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/3d2629c7-bf63-4f82-88cd-ea5f155b624c"
+					(reference "JP56")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/4f77dcbe-faa5-4f93-b7fb-c810472ea9ad"
+					(reference "JP62")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/68dbc524-2cb6-48a6-80fd-efd6921b88c0"
+					(reference "JP60")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/8c50b169-31e6-4d82-8eb1-f06d6f633e8f"
+					(reference "JP64")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/af9bfdc4-0f2c-497a-aeb4-270a7c6747dc"
+					(reference "JP52")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/b28e07c2-9ca3-4b97-9a41-c3c896005a43"
+					(reference "JP50")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/decbe635-88b4-4001-a8ce-3ffc714bef7e"
+					(reference "JP54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 172.72 68.58 90)
 		(unit 1)
@@ -1012,7 +1595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fa5b707-a722-4a31-870b-2365b21058e3")
-		(property "Reference" "C11"
+		(property "Reference" "C14"
 			(at 172.7263 62.23 90)
 			(effects
 				(font
@@ -1087,8 +1670,296 @@
 					(reference "C11")
 					(unit 1)
 				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/b28e07c2-9ca3-4b97-9a41-c3c896005a43"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/decbe635-88b4-4001-a8ce-3ffc714bef7e"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d8010b8-edb7-475c-9ae3-a079fe91d51b")
+		(property "Reference" "#PWR019"
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a5a34e8-fa14-4a70-a3aa-222ad19b2419")
+		)
+		(instances
+			(project "MCU_DAC_board"
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/1f7c13a1-90f8-47c2-a6ff-efab3982a41e"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/3d2629c7-bf63-4f82-88cd-ea5f155b624c"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/4f77dcbe-faa5-4f93-b7fb-c810472ea9ad"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/68dbc524-2cb6-48a6-80fd-efd6921b88c0"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/8c50b169-31e6-4d82-8eb1-f06d6f633e8f"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/af9bfdc4-0f2c-497a-aeb4-270a7c6747dc"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/b28e07c2-9ca3-4b97-9a41-c3c896005a43"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/decbe635-88b4-4001-a8ce-3ffc714bef7e"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 83.82 72.39 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fd7d1fd-0225-429f-9795-998d5dfc1f9b")
+		(property "Reference" "JP17"
+			(at 83.82 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 83.82 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 83.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd658cbb-5148-4bbc-9157-455f6f58a277")
+		)
+		(pin "1"
+			(uuid "27adc4df-fe16-41d1-b5a8-94733148115c")
+		)
+		(instances
+			(project "MCU_DAC_board"
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/1f7c13a1-90f8-47c2-a6ff-efab3982a41e"
+					(reference "JP25")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/3d2629c7-bf63-4f82-88cd-ea5f155b624c"
+					(reference "JP23")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/4f77dcbe-faa5-4f93-b7fb-c810472ea9ad"
+					(reference "JP29")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/68dbc524-2cb6-48a6-80fd-efd6921b88c0"
+					(reference "JP27")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/8c50b169-31e6-4d82-8eb1-f06d6f633e8f"
+					(reference "JP31")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/af9bfdc4-0f2c-497a-aeb4-270a7c6747dc"
+					(reference "JP19")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/b28e07c2-9ca3-4b97-9a41-c3c896005a43"
+					(reference "JP17")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/decbe635-88b4-4001-a8ce-3ffc714bef7e"
+					(reference "JP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 99.06 62.23 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36e0dde0-8a61-4a21-9006-8bdaa68d7b72")
+		(property "Reference" "JP1"
+			(at 99.06 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 99.06 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 99.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c69ca340-524c-4395-9be0-f824530cf8dd")
+		)
+		(pin "1"
+			(uuid "96f4d7a5-55e7-48bb-a284-2908fd033207")
+		)
+		(instances
+			(project ""
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/1f7c13a1-90f8-47c2-a6ff-efab3982a41e"
+					(reference "JP5")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/3d2629c7-bf63-4f82-88cd-ea5f155b624c"
+					(reference "JP4")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/4f77dcbe-faa5-4f93-b7fb-c810472ea9ad"
+					(reference "JP7")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/68dbc524-2cb6-48a6-80fd-efd6921b88c0"
+					(reference "JP6")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/8c50b169-31e6-4d82-8eb1-f06d6f633e8f"
+					(reference "JP8")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/af9bfdc4-0f2c-497a-aeb4-270a7c6747dc"
+					(reference "JP2")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/b28e07c2-9ca3-4b97-9a41-c3c896005a43"
+					(reference "JP1")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/decbe635-88b4-4001-a8ce-3ffc714bef7e"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -1104,7 +1975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "496ef07a-9d64-4db5-ba63-b5830f43695c")
-		(property "Reference" "U4"
+		(property "Reference" "U7"
 			(at 146.05 60.96 0)
 			(effects
 				(font
@@ -1216,6 +2087,10 @@
 					(reference "U4")
 					(unit 1)
 				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/b28e07c2-9ca3-4b97-9a41-c3c896005a43"
+					(reference "U?")
+					(unit 1)
+				)
 				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/decbe635-88b4-4001-a8ce-3ffc714bef7e"
 					(reference "U5")
 					(unit 1)
@@ -1233,7 +2108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d0e7c33-3238-4e07-9864-59f797948a4d")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR031"
 			(at 166.37 69.85 0)
 			(effects
 				(font
@@ -1306,8 +2181,300 @@
 					(reference "#PWR022")
 					(unit 1)
 				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/b28e07c2-9ca3-4b97-9a41-c3c896005a43"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/decbe635-88b4-4001-a8ce-3ffc714bef7e"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 82.55 86.36 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5eacd0d1-ebff-4d91-ad79-db9cdf2ed97c")
+		(property "Reference" "JP33"
+			(at 82.55 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 82.55 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 82.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b09f43a8-68b1-4de3-9e4a-c1455e39c796")
+		)
+		(pin "1"
+			(uuid "87b833fa-a2d1-44c9-89b9-6f2dc6c3880e")
+		)
+		(instances
+			(project "MCU_DAC_board"
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/1f7c13a1-90f8-47c2-a6ff-efab3982a41e"
+					(reference "JP41")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/3d2629c7-bf63-4f82-88cd-ea5f155b624c"
+					(reference "JP39")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/4f77dcbe-faa5-4f93-b7fb-c810472ea9ad"
+					(reference "JP45")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/68dbc524-2cb6-48a6-80fd-efd6921b88c0"
+					(reference "JP43")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/8c50b169-31e6-4d82-8eb1-f06d6f633e8f"
+					(reference "JP47")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/af9bfdc4-0f2c-497a-aeb4-270a7c6747dc"
+					(reference "JP35")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/b28e07c2-9ca3-4b97-9a41-c3c896005a43"
+					(reference "JP33")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/decbe635-88b4-4001-a8ce-3ffc714bef7e"
+					(reference "JP37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7158ddd4-285f-43de-868d-7557c6090776")
+		(property "Reference" "#PWR049"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cc7faed-05bc-4318-8ecb-43608323986e")
+		)
+		(instances
+			(project "MCU_DAC_board"
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/1f7c13a1-90f8-47c2-a6ff-efab3982a41e"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/3d2629c7-bf63-4f82-88cd-ea5f155b624c"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/4f77dcbe-faa5-4f93-b7fb-c810472ea9ad"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/68dbc524-2cb6-48a6-80fd-efd6921b88c0"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/8c50b169-31e6-4d82-8eb1-f06d6f633e8f"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/af9bfdc4-0f2c-497a-aeb4-270a7c6747dc"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/b28e07c2-9ca3-4b97-9a41-c3c896005a43"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/decbe635-88b4-4001-a8ce-3ffc714bef7e"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 104.14 64.77 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "720735d6-1259-43fc-ab7d-088092a0b05a")
+		(property "Reference" "JP9"
+			(at 105.41 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Open"
+			(at 105.41 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 104.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "feacd016-4acd-4c66-9679-33f6751b7d83")
+		)
+		(pin "2"
+			(uuid "7a73e79b-00ab-4a7b-9a3a-4f0683bf6a6f")
+		)
+		(instances
+			(project ""
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/1f7c13a1-90f8-47c2-a6ff-efab3982a41e"
+					(reference "JP13")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/3d2629c7-bf63-4f82-88cd-ea5f155b624c"
+					(reference "JP12")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/4f77dcbe-faa5-4f93-b7fb-c810472ea9ad"
+					(reference "JP15")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/68dbc524-2cb6-48a6-80fd-efd6921b88c0"
+					(reference "JP14")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/8c50b169-31e6-4d82-8eb1-f06d6f633e8f"
+					(reference "JP16")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/af9bfdc4-0f2c-497a-aeb4-270a7c6747dc"
+					(reference "JP10")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/b28e07c2-9ca3-4b97-9a41-c3c896005a43"
+					(reference "JP9")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/decbe635-88b4-4001-a8ce-3ffc714bef7e"
+					(reference "JP11")
 					(unit 1)
 				)
 			)
@@ -1323,7 +2490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76fc32f5-cc80-4a09-b22d-5ecf9358a95d")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR032"
 			(at 166.37 109.22 0)
 			(effects
 				(font
@@ -1396,8 +2563,394 @@
 					(reference "#PWR023")
 					(unit 1)
 				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/b28e07c2-9ca3-4b97-9a41-c3c896005a43"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/decbe635-88b4-4001-a8ce-3ffc714bef7e"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 88.9 74.93 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80d6cbd5-7c43-4fe3-9e65-23f4dcf03693")
+		(property "Reference" "JP18"
+			(at 90.17 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Open"
+			(at 90.17 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73e856a8-5cd3-41b1-b513-11b9eb73d348")
+		)
+		(pin "2"
+			(uuid "533ae8d5-57ed-4ba5-b5b2-853514c00e28")
+		)
+		(instances
+			(project "MCU_DAC_board"
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/1f7c13a1-90f8-47c2-a6ff-efab3982a41e"
+					(reference "JP26")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/3d2629c7-bf63-4f82-88cd-ea5f155b624c"
+					(reference "JP24")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/4f77dcbe-faa5-4f93-b7fb-c810472ea9ad"
+					(reference "JP30")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/68dbc524-2cb6-48a6-80fd-efd6921b88c0"
+					(reference "JP28")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/8c50b169-31e6-4d82-8eb1-f06d6f633e8f"
+					(reference "JP32")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/af9bfdc4-0f2c-497a-aeb4-270a7c6747dc"
+					(reference "JP20")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/b28e07c2-9ca3-4b97-9a41-c3c896005a43"
+					(reference "JP18")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/decbe635-88b4-4001-a8ce-3ffc714bef7e"
+					(reference "JP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8556b6cf-7622-47ca-bc6e-05668437905e")
+		(property "Reference" "#PWR057"
+			(at 87.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b149f730-a55e-4974-95c6-869ff438e755")
+		)
+		(instances
+			(project "MCU_DAC_board"
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/1f7c13a1-90f8-47c2-a6ff-efab3982a41e"
+					(reference "#PWR061")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/3d2629c7-bf63-4f82-88cd-ea5f155b624c"
+					(reference "#PWR060")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/4f77dcbe-faa5-4f93-b7fb-c810472ea9ad"
+					(reference "#PWR063")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/68dbc524-2cb6-48a6-80fd-efd6921b88c0"
+					(reference "#PWR062")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/8c50b169-31e6-4d82-8eb1-f06d6f633e8f"
+					(reference "#PWR064")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/af9bfdc4-0f2c-497a-aeb4-270a7c6747dc"
+					(reference "#PWR058")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/b28e07c2-9ca3-4b97-9a41-c3c896005a43"
+					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/decbe635-88b4-4001-a8ce-3ffc714bef7e"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 106.68 97.79 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8614f8ed-3f73-44fc-be63-e75e7d7390fd")
+		(property "Reference" "JP49"
+			(at 106.68 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 106.68 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a71d098-9330-475b-9ecc-656d04129618")
+		)
+		(pin "1"
+			(uuid "fe63c86e-a81b-4c17-badb-cd9a067f1502")
+		)
+		(instances
+			(project "MCU_DAC_board"
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/1f7c13a1-90f8-47c2-a6ff-efab3982a41e"
+					(reference "JP57")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/3d2629c7-bf63-4f82-88cd-ea5f155b624c"
+					(reference "JP55")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/4f77dcbe-faa5-4f93-b7fb-c810472ea9ad"
+					(reference "JP61")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/68dbc524-2cb6-48a6-80fd-efd6921b88c0"
+					(reference "JP59")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/8c50b169-31e6-4d82-8eb1-f06d6f633e8f"
+					(reference "JP63")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/af9bfdc4-0f2c-497a-aeb4-270a7c6747dc"
+					(reference "JP51")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/b28e07c2-9ca3-4b97-9a41-c3c896005a43"
+					(reference "JP49")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/decbe635-88b4-4001-a8ce-3ffc714bef7e"
+					(reference "JP53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9aa7d7e5-d789-4154-b25d-e5d52e4663e6")
+		(property "Reference" "#PWR065"
+			(at 111.76 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "897385b3-cfc2-4253-bfbd-0f3707fb8ff5")
+		)
+		(instances
+			(project "MCU_DAC_board"
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/1f7c13a1-90f8-47c2-a6ff-efab3982a41e"
+					(reference "#PWR069")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/3d2629c7-bf63-4f82-88cd-ea5f155b624c"
+					(reference "#PWR068")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/4f77dcbe-faa5-4f93-b7fb-c810472ea9ad"
+					(reference "#PWR071")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/68dbc524-2cb6-48a6-80fd-efd6921b88c0"
+					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/8c50b169-31e6-4d82-8eb1-f06d6f633e8f"
+					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/af9bfdc4-0f2c-497a-aeb4-270a7c6747dc"
+					(reference "#PWR066")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/b28e07c2-9ca3-4b97-9a41-c3c896005a43"
+					(reference "#PWR065")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/decbe635-88b4-4001-a8ce-3ffc714bef7e"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1413,7 +2966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e14303f9-0b55-4587-b256-76579b8c5a3b")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR033"
 			(at 182.88 74.93 0)
 			(effects
 				(font
@@ -1492,6 +3045,105 @@
 				)
 				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/decbe635-88b4-4001-a8ce-3ffc714bef7e"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 87.63 88.9 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edd95d40-7024-49d8-8056-6e2eb728b607")
+		(property "Reference" "JP34"
+			(at 88.9 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Open"
+			(at 88.9 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 87.63 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a842bcfd-5fb4-40bf-a005-04e04be9f233")
+		)
+		(pin "2"
+			(uuid "5e5e66bf-ddb6-4217-8876-bfd814431a0d")
+		)
+		(instances
+			(project "MCU_DAC_board"
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/1f7c13a1-90f8-47c2-a6ff-efab3982a41e"
+					(reference "JP42")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/3d2629c7-bf63-4f82-88cd-ea5f155b624c"
+					(reference "JP40")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/4f77dcbe-faa5-4f93-b7fb-c810472ea9ad"
+					(reference "JP46")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/68dbc524-2cb6-48a6-80fd-efd6921b88c0"
+					(reference "JP44")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/8c50b169-31e6-4d82-8eb1-f06d6f633e8f"
+					(reference "JP48")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/af9bfdc4-0f2c-497a-aeb4-270a7c6747dc"
+					(reference "JP36")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/b28e07c2-9ca3-4b97-9a41-c3c896005a43"
+					(reference "JP34")
+					(unit 1)
+				)
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2/decbe635-88b4-4001-a8ce-3ffc714bef7e"
+					(reference "JP38")
 					(unit 1)
 				)
 			)

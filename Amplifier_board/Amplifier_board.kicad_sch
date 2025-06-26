@@ -980,10 +980,6 @@
 		(color 0 0 0 0)
 		(uuid "185b3f5b-b9ae-4f9b-ace0-74ee348fc6c3")
 	)
-	(no_connect
-		(at 26.67 26.67)
-		(uuid "7ab41ad8-8737-4686-a925-c2c224659efd")
-	)
 	(wire
 		(pts
 			(xy 59.69 27.94) (xy 53.34 27.94)

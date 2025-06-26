@@ -299,16 +299,15 @@
 				)
 			)
 		)
-		(symbol "Device:FerriteBead_Small"
+		(symbol "Device:L_Small"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0.254) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "FB"
-				(at 1.905 1.27 0)
+			(property "Reference" "L"
+				(at 0.762 1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -316,8 +315,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "FerriteBead_Small"
-				(at 1.905 -1.27 0)
+			(property "Value" "L_Small"
+				(at 0.762 -1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -326,7 +325,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -343,7 +342,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Ferrite bead, small symbol"
+			(property "Description" "Inductor, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -352,7 +351,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -361,7 +360,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -370,11 +369,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "FerriteBead_Small_0_1"
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
-					)
+			(symbol "L_Small_0_1"
+				(arc
+					(start 0 -2.032)
+					(mid 0.5058 -1.524)
+					(end 0 -1.016)
 					(stroke
 						(width 0)
 						(type default)
@@ -383,10 +382,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 0.889) (xy 0 1.2954)
-					)
+				(arc
+					(start 0 -1.016)
+					(mid 0.5058 -0.508)
+					(end 0 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -395,10 +394,22 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+				(arc
+					(start 0 0)
+					(mid 0.5058 0.508)
+					(end 0 1.016)
+					(stroke
+						(width 0)
+						(type default)
 					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.016)
+					(mid 0.5058 1.524)
+					(end 0 2.032)
 					(stroke
 						(width 0)
 						(type default)
@@ -408,10 +419,10 @@
 					)
 				)
 			)
-			(symbol "FerriteBead_Small_1_1"
+			(symbol "L_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
-					(length 1.27)
+					(length 0.508)
 					(name "~"
 						(effects
 							(font
@@ -429,7 +440,7 @@
 				)
 				(pin passive line
 					(at 0 -2.54 90)
-					(length 1.27)
+					(length 0.508)
 					(name "~"
 						(effects
 							(font
@@ -3905,25 +3916,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 200.66 73.66 270)
+		(lib_id "Device:L_Small")
+		(at 200.66 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3e094608-1fb2-4b46-a027-9e19a21f2510")
-		(property "Reference" "FB6"
-			(at 200.6981 67.31 90)
+		(uuid "479e4e62-12c5-42a5-87f2-50d52b260d21")
+		(property "Reference" "L5"
+			(at 200.66 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MI0805J102R-10"
-			(at 200.6981 69.85 90)
+		(property "Value" "68u"
+			(at 200.66 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +3942,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 71.882 90)
+			(at 200.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,7 +3951,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 73.66 0)
+			(at 200.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3948,37 +3959,37 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 200.66 73.66 0)
+		(property "Description" "Inductor, small symbol"
+			(at 200.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "fc963ec1-9cda-471a-80b1-410094012b03")
 		)
 		(pin "1"
-			(uuid "c7033b62-3bd2-40dd-8564-481ca764cd6b")
+			(uuid "4d572077-7d55-43b2-af83-eb26f6b88c51")
+		)
+		(pin "2"
+			(uuid "eb197685-5bb0-4196-ac36-0f814e51d168")
 		)
 		(instances
 			(project "Amplifier_board"
 				(path "/991395a4-3885-4774-b551-0bfe029123d3/1a21d9eb-2329-48b7-8877-ba841ad5b065"
-					(reference "FB6")
+					(reference "L8")
 					(unit 1)
 				)
 				(path "/991395a4-3885-4774-b551-0bfe029123d3/26541e86-2f42-461f-bb67-92277cc28a80"
-					(reference "FB?")
+					(reference "L5")
 					(unit 1)
 				)
 				(path "/991395a4-3885-4774-b551-0bfe029123d3/e8898fe0-55dc-4973-83e9-f265cc01a132"
-					(reference "FB1")
+					(reference "L7")
 					(unit 1)
 				)
 				(path "/991395a4-3885-4774-b551-0bfe029123d3/eadc8ba5-6d36-4b46-a20f-2896249de991"
-					(reference "FB2")
+					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -4136,6 +4147,86 @@
 				)
 				(path "/991395a4-3885-4774-b551-0bfe029123d3/eadc8ba5-6d36-4b46-a20f-2896249de991"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 200.66 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54feb1a1-d09f-41dc-b44f-c1ab80cb58b4")
+		(property "Reference" "L1"
+			(at 200.66 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "68u"
+			(at 200.66 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2317445-c565-4f1c-b671-e0d2c8be2869")
+		)
+		(pin "2"
+			(uuid "ddfe7f1b-73c5-40b2-8845-78dc61d2a265")
+		)
+		(instances
+			(project ""
+				(path "/991395a4-3885-4774-b551-0bfe029123d3/1a21d9eb-2329-48b7-8877-ba841ad5b065"
+					(reference "L4")
+					(unit 1)
+				)
+				(path "/991395a4-3885-4774-b551-0bfe029123d3/26541e86-2f42-461f-bb67-92277cc28a80"
+					(reference "L1")
+					(unit 1)
+				)
+				(path "/991395a4-3885-4774-b551-0bfe029123d3/e8898fe0-55dc-4973-83e9-f265cc01a132"
+					(reference "L3")
+					(unit 1)
+				)
+				(path "/991395a4-3885-4774-b551-0bfe029123d3/eadc8ba5-6d36-4b46-a20f-2896249de991"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -4406,7 +4497,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000p"
+		(property "Value" "0.5u"
 			(at 215.9 77.4762 0)
 			(effects
 				(font
@@ -5504,86 +5595,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 200.66 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c476ee72-49d4-4611-a78e-1886bed92e8e")
-		(property "Reference" "FB7"
-			(at 200.6981 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MI0805J102R-10"
-			(at 200.6981 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 84.582 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 200.66 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a9c63067-0552-4700-85be-1e90befeefff")
-		)
-		(pin "1"
-			(uuid "7a2c38d8-3389-4dcd-8f2a-5b31fa6fb4c9")
-		)
-		(instances
-			(project "Amplifier_board"
-				(path "/991395a4-3885-4774-b551-0bfe029123d3/1a21d9eb-2329-48b7-8877-ba841ad5b065"
-					(reference "FB7")
-					(unit 1)
-				)
-				(path "/991395a4-3885-4774-b551-0bfe029123d3/26541e86-2f42-461f-bb67-92277cc28a80"
-					(reference "FB5")
-					(unit 1)
-				)
-				(path "/991395a4-3885-4774-b551-0bfe029123d3/e8898fe0-55dc-4973-83e9-f265cc01a132"
-					(reference "FB4")
-					(unit 1)
-				)
-				(path "/991395a4-3885-4774-b551-0bfe029123d3/eadc8ba5-6d36-4b46-a20f-2896249de991"
-					(reference "FB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 172.72 88.9 90)
 		(unit 1)
@@ -6079,7 +6090,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000p"
+		(property "Value" "0.5u"
 			(at 215.9 85.0962 0)
 			(effects
 				(font
