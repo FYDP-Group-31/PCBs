@@ -1804,12 +1804,6 @@
 		(uuid "64197bc7-f6b2-43ba-9c2b-e5d424bb7d47")
 	)
 	(junction
-		(at 168.91 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a0e1c05-9e1d-4e29-85bf-ef6fcde41acb")
-	)
-	(junction
 		(at 182.88 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2435,16 +2429,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 73.66) (xy 168.91 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f74ed8f-9352-4dcd-a1f5-ad264fb81626")
-	)
-	(wire
-		(pts
 			(xy 168.91 68.58) (xy 185.42 68.58)
 		)
 		(stroke
@@ -2903,28 +2887,9 @@
 		)
 		(uuid "fc80d7ab-b2f6-4773-afde-984da5f80c38")
 	)
-	(text_box "MI0805J102R-10 Ferrites:\nDC R = 150m\nZ@100MHz = 1k\nImax = 1A\n"
-		(exclude_from_sim no)
-		(at 243.84 73.66 0)
-		(size 20.32 12.7)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "006a7099-71bb-4e2e-970f-1525b9f053a7")
-	)
 	(text_box "Note: Connect pin 8 to the thermal pad\n"
 		(exclude_from_sim no)
-		(at 121.92 113.03 0)
+		(at 127 114.3 0)
 		(size 27.94 15.24)
 		(stroke
 			(width 0)
@@ -3061,7 +3026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 93.98 83.82 0)
 			(effects
 				(font
@@ -3140,7 +3105,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 186.69 78.74 0)
 			(effects
 				(font
@@ -3221,7 +3186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 102.87 53.34 0)
 			(effects
 				(font
@@ -3300,7 +3265,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 88.9 78.74 0)
 			(effects
 				(font
@@ -3383,7 +3348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 73.66 127 0)
 			(effects
 				(font
@@ -3697,7 +3662,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 96.52 63.5 0)
 			(effects
 				(font
@@ -3779,7 +3744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 199.39 101.6 0)
 			(effects
 				(font
@@ -3861,7 +3826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 187.96 101.6 0)
 			(effects
 				(font
@@ -3925,7 +3890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "479e4e62-12c5-42a5-87f2-50d52b260d21")
-		(property "Reference" "L5"
+		(property "Reference" "L8"
 			(at 200.66 81.28 90)
 			(effects
 				(font
@@ -3941,7 +3906,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-80xx_HandSoldering"
 			(at 200.66 86.36 0)
 			(effects
 				(font
@@ -3950,7 +3915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "LSXNH8080YKL680MJG"
 			(at 200.66 86.36 0)
 			(effects
 				(font
@@ -4162,7 +4127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54feb1a1-d09f-41dc-b44f-c1ab80cb58b4")
-		(property "Reference" "L1"
+		(property "Reference" "L4"
 			(at 200.66 68.58 90)
 			(effects
 				(font
@@ -4178,7 +4143,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-80xx_HandSoldering"
 			(at 200.66 73.66 0)
 			(effects
 				(font
@@ -4260,7 +4225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 191.77 59.69 0)
 			(effects
 				(font
@@ -4343,7 +4308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 88.9 115.57 0)
 			(effects
 				(font
@@ -4425,7 +4390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 213.36 59.69 0)
 			(effects
 				(font
@@ -4506,7 +4471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 213.36 76.2 0)
 			(effects
 				(font
@@ -4909,7 +4874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 209.55 101.6 0)
 			(effects
 				(font
@@ -5301,7 +5266,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 99.06 96.52 0)
 			(effects
 				(font
@@ -5540,7 +5505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 203.2 59.69 0)
 			(effects
 				(font
@@ -5698,7 +5663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 86.36 88.9 0)
 			(effects
 				(font
@@ -5781,7 +5746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 73.66 115.57 0)
 			(effects
 				(font
@@ -5860,7 +5825,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 186.69 91.44 0)
 			(effects
 				(font
@@ -6099,7 +6064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 213.36 83.82 0)
 			(effects
 				(font
@@ -6335,7 +6300,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 81.28 91.44 0)
 			(effects
 				(font
@@ -6418,7 +6383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 88.9 127 0)
 			(effects
 				(font

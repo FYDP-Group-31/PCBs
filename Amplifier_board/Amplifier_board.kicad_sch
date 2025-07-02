@@ -1943,7 +1943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 43.18 26.67 0)
 			(effects
 				(font
@@ -2082,13 +2082,12 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "project_lib:ASSMANN_A-DF_09_A_KG-T4S"
 			(at 63.5 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
