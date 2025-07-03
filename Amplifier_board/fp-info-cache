@@ -1,4 +1,4 @@
-24422251216049655
+24424002767833214
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98636,3 +98636,10 @@ TPA3111D1PWPR
 0
 29
 29
+project_lib
+WCAP-ASLI_6.3X7.7_DXL_
+
+
+0
+2
+2
