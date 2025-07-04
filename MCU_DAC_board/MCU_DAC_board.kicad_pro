@@ -386,38 +386,6 @@
     [
       "04313b52-c86e-4005-b50d-74ee3e5645b2",
       "Root"
-    ],
-    [
-      "b28e07c2-9ca3-4b97-9a41-c3c896005a43",
-      "buffer1"
-    ],
-    [
-      "1daa2324-5c2c-4c8a-b30b-60e575261e1a",
-      "buffer2"
-    ],
-    [
-      "a820550d-8eb5-492b-808e-ebf7231b7dad",
-      "buffer3"
-    ],
-    [
-      "ad4d2481-f6ab-498f-b277-29e5c8afe5ba",
-      "buffer4"
-    ],
-    [
-      "8576557e-7b53-49ea-b606-0ac12ea51e27",
-      "buffer5"
-    ],
-    [
-      "d7aeb4d6-7b84-4116-80e0-889bb9374236",
-      "buffer6"
-    ],
-    [
-      "cf374fd1-ac48-4c96-b097-b9e863c53d7b",
-      "buffer7"
-    ],
-    [
-      "4a29f33f-a181-400f-b887-e70a91bd9805",
-      "buffer8"
     ]
   ],
   "text_variables": {}
