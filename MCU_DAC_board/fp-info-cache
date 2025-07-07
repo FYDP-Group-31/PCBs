@@ -1,4 +1,4 @@
-24424019785219360
+24431027466095048
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98616,6 +98616,27 @@ Varistor VF
 2
 2
 project_lib
+691137710002
+
+
+0
+2
+2
+project_lib
+AMPHENOL_LD09S24A4GX00LF
+
+
+0
+11
+11
+project_lib
+CONN_0752-001
+
+105-0752-001 
+0
+2
+2
+project_lib
 ESP32-WROOM-30-DEVBOARD
 
 
@@ -98636,6 +98657,13 @@ ADAU1966AWBSTZ
 0
 80
 80
+project_lib
+TENSILITY_54-00127
+
+
+0
+5
+5
 project_lib
 XCVR_ESP32-S3-DEVKITC-1-N8R2
 
