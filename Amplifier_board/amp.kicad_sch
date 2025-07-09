@@ -2061,6 +2061,12 @@
 		(uuid "a4043a57-07c0-4219-8bfc-38364a12b6cb")
 	)
 	(junction
+		(at 229.87 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6844da1-5ef2-42d5-9235-f363f5ed9a82")
+	)
+	(junction
 		(at 248.92 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2095,6 +2101,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c318a74b-2f97-46a3-926e-280a4687ca29")
+	)
+	(junction
+		(at 219.71 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc180919-34bc-4a99-bd2d-121d766358b0")
 	)
 	(junction
 		(at 191.77 78.74)
@@ -2220,6 +2232,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 66.04) (xy 237.49 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f6148b-4dac-49ec-8b80-681c75562be0")
+	)
+	(wire
+		(pts
 			(xy 189.23 86.36) (xy 191.77 86.36)
 		)
 		(stroke
@@ -2307,6 +2329,16 @@
 			(type default)
 		)
 		(uuid "1fa93c00-0078-4726-8705-689d72023a53")
+	)
+	(wire
+		(pts
+			(xy 219.71 66.04) (xy 222.25 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232c29bc-369e-4445-a6df-5981da3b58f4")
 	)
 	(wire
 		(pts
@@ -2477,6 +2509,16 @@
 			(type default)
 		)
 		(uuid "49c0b3d0-7d0f-4939-9c40-029f20944f4d")
+	)
+	(wire
+		(pts
+			(xy 219.71 60.96) (xy 222.25 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d6171b-b653-44a0-8b1c-0f5fc125383f")
 	)
 	(wire
 		(pts
@@ -2730,6 +2772,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 60.96) (xy 229.87 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77762b12-51af-4198-9356-b3e2f0932b7f")
+	)
+	(wire
+		(pts
 			(xy 248.92 66.04) (xy 248.92 76.2)
 		)
 		(stroke
@@ -2817,6 +2869,16 @@
 			(type default)
 		)
 		(uuid "87d0237e-4517-44ca-890b-1112550fce53")
+	)
+	(wire
+		(pts
+			(xy 219.71 66.04) (xy 219.71 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b306a76-bac5-4dc8-861f-8906035c3f85")
 	)
 	(wire
 		(pts
@@ -3440,6 +3502,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 60.96) (xy 229.87 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea26fb13-e424-4f21-8326-35773632a0a0")
+	)
+	(wire
+		(pts
 			(xy 76.2 86.36) (xy 72.39 86.36)
 		)
 		(stroke
@@ -3460,7 +3532,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 66.04) (xy 222.25 66.04)
+			(xy 217.17 66.04) (xy 219.71 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3480,7 +3552,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 66.04) (xy 237.49 66.04)
+			(xy 227.33 66.04) (xy 229.87 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4927,7 +4999,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "479e4e62-12c5-42a5-87f2-50d52b260d21")
 		(property "Reference" "L8"
@@ -5243,11 +5315,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
+		(dnp yes)
 		(uuid "54feb1a1-d09f-41dc-b44f-c1ab80cb58b4")
 		(property "Reference" "L4"
-			(at 224.79 60.96 90)
+			(at 224.79 67.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +5326,7 @@
 			)
 		)
 		(property "Value" "15u"
-			(at 224.79 63.5 90)
+			(at 224.79 69.342 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +5479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62ae54f9-6517-4efc-b517-43d84048b58b")
-		(property "Reference" "FB1"
+		(property "Reference" "FB4"
 			(at 224.7519 93.98 90)
 			(effects
 				(font
@@ -5416,7 +5487,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead_Small"
+		(property "Value" "ILHB0805ER251V"
 			(at 224.7519 96.52 90)
 			(effects
 				(font
@@ -5424,7 +5495,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 224.79 102.108 90)
 			(effects
 				(font
@@ -5883,6 +5954,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 224.79 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88084641-24b8-4584-953b-e47514d24032")
+		(property "Reference" "FB5"
+			(at 224.7519 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ILHB0805ER251V"
+			(at 224.7519 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 224.79 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 224.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "57793602-1d12-419a-bbe0-feb75aecc105")
+		)
+		(pin "1"
+			(uuid "eb32694c-2e93-4e5e-8283-621f46de8060")
+		)
+		(instances
+			(project "Amplifier_board"
+				(path "/991395a4-3885-4774-b551-0bfe029123d3/1a21d9eb-2329-48b7-8877-ba841ad5b065"
+					(reference "FB8")
+					(unit 1)
+				)
+				(path "/991395a4-3885-4774-b551-0bfe029123d3/26541e86-2f42-461f-bb67-92277cc28a80"
+					(reference "FB5")
+					(unit 1)
+				)
+				(path "/991395a4-3885-4774-b551-0bfe029123d3/e8898fe0-55dc-4973-83e9-f265cc01a132"
+					(reference "FB7")
+					(unit 1)
+				)
+				(path "/991395a4-3885-4774-b551-0bfe029123d3/eadc8ba5-6d36-4b46-a20f-2896249de991"
+					(reference "FB6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 252.73 66.04 0)
 		(unit 1)
@@ -5979,7 +6130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "1000p"
 			(at 240.03 69.8562 0)
 			(effects
 				(font
@@ -8054,7 +8205,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "1000p"
 			(at 240.03 90.1762 0)
 			(effects
 				(font
