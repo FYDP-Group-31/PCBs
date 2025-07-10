@@ -2552,6 +2552,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 41.91) (xy 66.04 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f611437-9f2b-4401-8dac-58119dd67e0f")
+	)
+	(wire
+		(pts
 			(xy 213.36 62.23) (xy 213.36 64.77)
 		)
 		(stroke
@@ -2569,16 +2579,6 @@
 			(type default)
 		)
 		(uuid "55d9b392-11c9-43bd-9966-6c308c37e62c")
-	)
-	(wire
-		(pts
-			(xy 93.98 96.52) (xy 96.52 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56f268db-fcf6-4421-b5a1-ace5c4f9a9df")
 	)
 	(wire
 		(pts
@@ -3012,6 +3012,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 39.37) (xy 48.26 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4f3014-1703-4851-8a52-63027ad1473e")
+	)
+	(wire
+		(pts
 			(xy 102.87 91.44) (xy 83.82 91.44)
 		)
 		(stroke
@@ -3362,6 +3372,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 96.52) (xy 96.52 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e40d36-630d-4a59-8ad7-adbf50b75747")
+	)
+	(wire
+		(pts
 			(xy 209.55 106.68) (xy 209.55 104.14)
 		)
 		(stroke
@@ -3479,6 +3499,16 @@
 			(type default)
 		)
 		(uuid "e024ab2d-3daf-4b82-a54a-6cbcd24db5c2")
+	)
+	(wire
+		(pts
+			(xy 48.26 41.91) (xy 55.88 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e418b2e8-0423-4ae4-996a-4bde4819ebe5")
 	)
 	(wire
 		(pts
@@ -3677,6 +3707,17 @@
 		)
 		(uuid "e7e4b33a-357d-4aac-ab76-2985ce9dc2d5")
 	)
+	(label "AVCC"
+		(at 88.9 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a5f3a51-d311-4a9a-8303-efdb549bba93")
+	)
 	(label "OutN_unfiltered"
 		(at 199.39 73.66 0)
 		(fields_autoplaced yes)
@@ -3687,6 +3728,28 @@
 			(justify left bottom)
 		)
 		(uuid "3820a0e3-33a5-4bab-ab51-8e60d9dc5ec7")
+	)
+	(label "PVCC"
+		(at 49.53 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c3c46aa-6487-4cd8-b7a6-f3325a249b46")
+	)
+	(label "AVCC"
+		(at 66.04 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90b08db7-82c8-4612-a9e2-8f95db2cf968")
 	)
 	(label "Gain0"
 		(at 97.79 73.66 0)
@@ -3720,6 +3783,17 @@
 			(justify left bottom)
 		)
 		(uuid "a476b58f-891e-46a6-8495-3a00dc17aeed")
+	)
+	(label "AVCC"
+		(at 85.09 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d16b9c61-c970-46da-b1a4-2b7d29734ec5")
 	)
 	(label "Gain1"
 		(at 113.03 143.51 0)
@@ -3947,6 +4021,84 @@
 				)
 				(path "/991395a4-3885-4774-b551-0bfe029123d3/eadc8ba5-6d36-4b46-a20f-2896249de991"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 48.26 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0700db3b-2268-4d24-bbbe-7a7cbe12957b")
+		(property "Reference" "#PWR04"
+			(at 48.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 48.26 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17d390f8-f7a5-4891-942e-c94d12f902d3")
+		)
+		(instances
+			(project "Amplifier_board"
+				(path "/991395a4-3885-4774-b551-0bfe029123d3/1a21d9eb-2329-48b7-8877-ba841ad5b065"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/991395a4-3885-4774-b551-0bfe029123d3/26541e86-2f42-461f-bb67-92277cc28a80"
+					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/991395a4-3885-4774-b551-0bfe029123d3/e8898fe0-55dc-4973-83e9-f265cc01a132"
+					(reference "#PWR023")
+					(unit 1)
+				)
+				(path "/991395a4-3885-4774-b551-0bfe029123d3/eadc8ba5-6d36-4b46-a20f-2896249de991"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5550,6 +5702,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 58.42 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65489104-8cba-48b2-9515-d0c1f6a83a09")
+		(property "Reference" "R37"
+			(at 58.42 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 58.42 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 58.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 58.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee7c2db3-f0d0-4e15-90e2-ce4c9ffb1295")
+		)
+		(pin "2"
+			(uuid "09f97f85-b43c-4d3f-903a-c89dad6227df")
+		)
+		(instances
+			(project ""
+				(path "/991395a4-3885-4774-b551-0bfe029123d3/1a21d9eb-2329-48b7-8877-ba841ad5b065"
+					(reference "R40")
+					(unit 1)
+				)
+				(path "/991395a4-3885-4774-b551-0bfe029123d3/26541e86-2f42-461f-bb67-92277cc28a80"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/991395a4-3885-4774-b551-0bfe029123d3/e8898fe0-55dc-4973-83e9-f265cc01a132"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/991395a4-3885-4774-b551-0bfe029123d3/eadc8ba5-6d36-4b46-a20f-2896249de991"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 213.36 59.69 0)
 		(unit 1)
@@ -5963,7 +6194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88084641-24b8-4584-953b-e47514d24032")
-		(property "Reference" "FB5"
+		(property "Reference" "FB8"
 			(at 224.7519 54.61 90)
 			(effects
 				(font
@@ -7003,7 +7234,7 @@
 		(dnp no)
 		(uuid "ab762466-a84c-482c-a503-305465c56272")
 		(property "Reference" "R20"
-			(at 59.69 81.28 90)
+			(at 50.038 81.026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7067,85 +7298,6 @@
 				)
 				(path "/991395a4-3885-4774-b551-0bfe029123d3/eadc8ba5-6d36-4b46-a20f-2896249de991"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 93.98 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "adc14ede-ae14-45c8-a903-4594ab78bfd4")
-		(property "Reference" "#PWR063"
-			(at 97.79 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 90.17 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 93.98 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76d60cde-aab9-4904-9fa0-8d05de58c581")
-		)
-		(instances
-			(project "Amplifier_board"
-				(path "/991395a4-3885-4774-b551-0bfe029123d3/1a21d9eb-2329-48b7-8877-ba841ad5b065"
-					(reference "#PWR063")
-					(unit 1)
-				)
-				(path "/991395a4-3885-4774-b551-0bfe029123d3/26541e86-2f42-461f-bb67-92277cc28a80"
-					(reference "#PWR08")
-					(unit 1)
-				)
-				(path "/991395a4-3885-4774-b551-0bfe029123d3/e8898fe0-55dc-4973-83e9-f265cc01a132"
-					(reference "#PWR045")
-					(unit 1)
-				)
-				(path "/991395a4-3885-4774-b551-0bfe029123d3/eadc8ba5-6d36-4b46-a20f-2896249de991"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7394,7 +7546,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bb1740be-420b-402a-8f53-6b50298bb98f")
 		(property "Reference" "TP24"
 			(at 57.15 81.7879 0)
@@ -7406,7 +7557,7 @@
 			)
 		)
 		(property "Value" "InN"
-			(at 57.15 84.3279 0)
+			(at 49.276 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7941,84 +8092,6 @@
 				)
 				(path "/991395a4-3885-4774-b551-0bfe029123d3/eadc8ba5-6d36-4b46-a20f-2896249de991"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 85.09 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce18feaf-85fd-45f4-953c-2d1371520bfa")
-		(property "Reference" "#PWR059"
-			(at 85.09 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 85.09 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 85.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60f4d3ad-3382-45b1-9dc9-10d22fbc1371")
-		)
-		(instances
-			(project "Amplifier_board"
-				(path "/991395a4-3885-4774-b551-0bfe029123d3/1a21d9eb-2329-48b7-8877-ba841ad5b065"
-					(reference "#PWR059")
-					(unit 1)
-				)
-				(path "/991395a4-3885-4774-b551-0bfe029123d3/26541e86-2f42-461f-bb67-92277cc28a80"
-					(reference "#PWR04")
-					(unit 1)
-				)
-				(path "/991395a4-3885-4774-b551-0bfe029123d3/e8898fe0-55dc-4973-83e9-f265cc01a132"
-					(reference "#PWR041")
-					(unit 1)
-				)
-				(path "/991395a4-3885-4774-b551-0bfe029123d3/eadc8ba5-6d36-4b46-a20f-2896249de991"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)

@@ -3781,7 +3781,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "8c4537e2-dc70-42dd-8482-4dad0d16e52f")
@@ -3832,7 +3832,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/05a81963-c309-4cf9-bceb-38359689a7b5")
+		(path "/3a0a031a-dbb2-4187-b399-e7e9236737a7")
 		(sheetname "Root")
 		(sheetfile "MCU_DAC_board.kicad_sch")
 		(attr smd)
@@ -3961,7 +3961,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.208333)
-			(net 63 "/DAC_*RST")
+			(net 70 "/GPIO8")
 			(pintype "passive")
 			(uuid "9f8d3a96-68d1-465d-a4db-0dacd023ddbc")
 		)
@@ -9228,7 +9228,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 76 "unconnected-(U1-SA1-Pad31)")
 			(pinfunction "SA1")
-			(pintype "unspecified+no_connect")
+			(pintype "unspecified")
 			(uuid "75a04a3d-a7f4-4a64-8c5a-ea99762404a1")
 		)
 		(pad "32" smd rect
@@ -9237,7 +9237,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 78 "unconnected-(U1-SA2-Pad32)")
 			(pinfunction "SA2")
-			(pintype "unspecified+no_connect")
+			(pintype "unspecified")
 			(uuid "858e1463-7721-4159-8b9c-c1ba81288a29")
 		)
 		(pad "33" smd rect
@@ -9327,7 +9327,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 79 "unconnected-(U1-MOSI{slash}ADDR1{slash}SA-Pad42)")
 			(pinfunction "MOSI/ADDR1/SA")
-			(pintype "unspecified+no_connect")
+			(pintype "unspecified")
 			(uuid "8c11dbb1-27e7-4bb5-ae2d-1336c666975a")
 		)
 		(pad "43" smd rect
@@ -9354,7 +9354,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 80 "unconnected-(U1-*SS{slash}ADDR0{slash}SA-Pad45)")
 			(pinfunction "*SS/ADDR0/SA")
-			(pintype "unspecified+no_connect")
+			(pintype "unspecified")
 			(uuid "f9a77fe5-d31f-4316-bb0c-31dc3825f287")
 		)
 		(pad "46" smd rect
@@ -9363,7 +9363,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 74 "unconnected-(U1-SA_MODE-Pad46)")
 			(pinfunction "SA_MODE")
-			(pintype "unspecified+no_connect")
+			(pintype "unspecified")
 			(uuid "3f35a233-b05d-458c-9400-e534b181a073")
 		)
 		(pad "47" smd rect
