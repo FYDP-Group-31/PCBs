@@ -1,4 +1,4 @@
-24431027466095048
+24432798431191925
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98664,6 +98664,13 @@ TENSILITY_54-00127
 0
 5
 5
+project_lib
+TP_1.8x1mm
+
+
+0
+1
+1
 project_lib
 XCVR_ESP32-S3-DEVKITC-1-N8R2
 
