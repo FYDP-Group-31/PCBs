@@ -8980,6 +8980,231 @@
 		)
 	)
 	(symbol
+		(lib_id "project_lib:ESP32-S3-DEVKITC-1-N8R2")
+		(at 91.44 331.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09f602f8-c13a-4aba-8a31-487a5487d700")
+		(property "Reference" "U3"
+			(at 91.44 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP32-S3-DEVKITC-1-N8R2"
+			(at 91.44 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_lib:XCVR_ESP32-S3-DEVKITC-1-N8R2"
+			(at 91.44 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V1"
+			(at 91.44 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 91.44 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Espressif"
+			(at 91.44 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "J1_3"
+			(uuid "c57d270c-adbf-4a85-aafe-36f05129bd35")
+		)
+		(pin "J1_6"
+			(uuid "c7c31c10-522c-4f4c-8080-7f26b047207e")
+		)
+		(pin "J1_1"
+			(uuid "9a358f66-949d-4553-b63d-45259881d8be")
+		)
+		(pin "J1_18"
+			(uuid "9e865258-a239-4860-923a-5504ab2f01d9")
+		)
+		(pin "J1_7"
+			(uuid "92592448-6002-4491-9116-e4c1c9d2edf8")
+		)
+		(pin "J1_2"
+			(uuid "7ccadf75-f3d0-40ac-b8a9-f84d26318aa6")
+		)
+		(pin "J3_11"
+			(uuid "1c9a3783-2767-441c-96be-7d322fc36f0f")
+		)
+		(pin "J1_17"
+			(uuid "15f9e7e3-e652-4e97-afad-0fdc278a733b")
+		)
+		(pin "J3_13"
+			(uuid "e69b1fc5-13a1-449c-a4dc-658505c0e8e9")
+		)
+		(pin "J3_12"
+			(uuid "b6612ccc-764e-4f00-96a3-c48639095bd2")
+		)
+		(pin "J3_10"
+			(uuid "d6816e0d-8d3b-477c-bb12-609f68a95fb5")
+		)
+		(pin "J1_22"
+			(uuid "74bfd023-53e2-4825-ba61-b221fad72e0a")
+		)
+		(pin "J1_21"
+			(uuid "6f685c44-825a-406d-86ba-528f89fe93d6")
+		)
+		(pin "J3_5"
+			(uuid "c401105f-3e7b-41bb-a59b-811611d96c83")
+		)
+		(pin "J3_16"
+			(uuid "9c645994-c388-481b-9553-20e2346b9634")
+		)
+		(pin "J1_5"
+			(uuid "805d7b36-415e-45dd-a98f-971d0a5c0b4b")
+		)
+		(pin "J1_15"
+			(uuid "8d8dfa69-ee64-4c82-a209-a97e34d3f496")
+		)
+		(pin "J1_16"
+			(uuid "6fb0d5b2-ab51-47b4-bb9e-9377911115f1")
+		)
+		(pin "J3_17"
+			(uuid "256c2e8f-68d6-4d0a-ae4c-968dd634e6c8")
+		)
+		(pin "J3_14"
+			(uuid "93f4fd07-8fb9-45b5-9300-a2028b5adb9d")
+		)
+		(pin "J1_20"
+			(uuid "e367c8b1-84d3-4692-8f47-d376117e1d8a")
+		)
+		(pin "J3_1"
+			(uuid "7986d94a-2b39-429e-9eb7-265fdb1f14f5")
+		)
+		(pin "J3_18"
+			(uuid "e6c22f75-697d-4827-82a6-1154015bcb30")
+		)
+		(pin "J3_6"
+			(uuid "481205a0-4ece-4f3a-9514-ccdc704773eb")
+		)
+		(pin "J3_3"
+			(uuid "3b9afa02-85ed-44ee-8504-f8b85a00b5bc")
+		)
+		(pin "J3_21"
+			(uuid "c03484b0-0162-415f-8dea-908d71013524")
+		)
+		(pin "J1_10"
+			(uuid "f5786e38-07e5-4c02-96b8-098d81095367")
+		)
+		(pin "J1_19"
+			(uuid "586d073b-e888-44e7-a2b9-254cb0ca10ed")
+		)
+		(pin "J3_20"
+			(uuid "bcf0db08-7c6b-467e-849f-b6ef6fdd21f8")
+		)
+		(pin "J1_9"
+			(uuid "62cdff74-551f-463a-9d3b-06b99813c687")
+		)
+		(pin "J3_9"
+			(uuid "736e57bd-6c0f-4b53-a5b8-cc1dc74f6e6c")
+		)
+		(pin "J3_7"
+			(uuid "eb6ba468-2107-49b5-adeb-1252ba0cea07")
+		)
+		(pin "J3_8"
+			(uuid "2a6b1eb7-90ce-4ebb-8c0c-1eed0639cfe6")
+		)
+		(pin "J1_14"
+			(uuid "1e1290aa-7179-472f-b877-158dbf19b76e")
+		)
+		(pin "J1_8"
+			(uuid "a24e2a96-783e-4af8-9019-31f0af4f32c9")
+		)
+		(pin "J3_2"
+			(uuid "f9d555d4-f295-40e3-898f-bdef60b73a69")
+		)
+		(pin "J3_19"
+			(uuid "859d95be-c11e-4d34-81b4-7793da01ee2c")
+		)
+		(pin "J3_22"
+			(uuid "de270f46-6b2a-4834-8a6b-9f51fdedec79")
+		)
+		(pin "J1_13"
+			(uuid "22a332cb-5ef8-4a7b-ba6a-c366734c68e5")
+		)
+		(pin "J3_4"
+			(uuid "f028e6b6-dce8-484c-8336-d92568630b3d")
+		)
+		(pin "J1_4"
+			(uuid "83eaf911-6439-44ec-a007-1ce6c9e4363d")
+		)
+		(pin "J1_11"
+			(uuid "4c9286ec-7205-45f8-9d90-80a57a27ece1")
+		)
+		(pin "J3_15"
+			(uuid "74d25d4c-f15d-47b9-9078-ce83fa4a2eb9")
+		)
+		(pin "J1_12"
+			(uuid "64d52cc6-203b-4dfb-987d-c2fb3ca91d6f")
+		)
+		(instances
+			(project "MCU_DAC_board"
+				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "project_lib:ADAU1966AWBSTZ")
 		(at 215.9 175.26 0)
 		(unit 1)
