@@ -1,4 +1,4 @@
-24425793646089768
+24427545915342289
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98629,6 +98629,13 @@ ASSMANN_A-DF_09_A_KG-T4S
 0
 11
 11
+project_lib
+BHR-08-VUA
+
+
+0
+8
+8
 project_lib
 PWP28_6P17X2P4
 
