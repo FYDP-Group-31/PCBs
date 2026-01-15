@@ -8783,16 +8783,6 @@
 		)
 		(uuid "45510643-4fb5-4191-8a97-b00d09393a79")
 	)
-	(label "GPIO3"
-		(at 207.01 355.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "473288df-6037-46df-9f31-bf726bb305ff")
-	)
 	(label "GPIO47"
 		(at 207.01 378.46 0)
 		(effects
@@ -9012,6 +9002,16 @@
 			(justify right bottom)
 		)
 		(uuid "7f4ca78b-4900-4d41-95ca-bb6b00a24ec5")
+	)
+	(label "GPIO3"
+		(at 207.01 355.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "835df913-47cd-4b6d-92fa-98bbb51822ac")
 	)
 	(label "AVDD"
 		(at 233.68 175.26 180)
@@ -10797,7 +10797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom"
 			(at 165.1 107.95 0)
 			(effects
 				(font
@@ -11609,7 +11609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom"
 			(at 135.89 107.95 0)
 			(effects
 				(font
@@ -12328,7 +12328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom"
 			(at 135.89 92.71 0)
 			(effects
 				(font
@@ -15231,7 +15231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom"
 			(at 165.1 92.71 0)
 			(effects
 				(font
@@ -15425,10 +15425,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 247.65 210.82 0)
 			(effects
 				(font
@@ -15671,8 +15670,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
-		(at 222.25 355.6 0)
-		(mirror y)
+		(at 219.71 355.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15696,7 +15694,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical_SMD"
-			(at 222.25 355.6 0)
+			(at 219.71 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15705,7 +15703,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 355.6 0)
+			(at 219.71 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15714,7 +15712,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 222.25 355.6 0)
+			(at 219.71 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
