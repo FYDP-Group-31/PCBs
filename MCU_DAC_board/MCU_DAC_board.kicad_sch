@@ -5,210 +5,6 @@
 	(uuid "04313b52-c86e-4005-b50d-74ee3e5645b2")
 	(paper "A2")
 	(lib_symbols
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -5542,12 +5338,6 @@
 		(uuid "3994a4ca-2b87-451e-b7d5-298e19927a9b")
 	)
 	(junction
-		(at 335.28 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ddcb618-f037-461e-a9ea-15ee2769ece4")
-	)
-	(junction
 		(at 238.76 332.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5710,6 +5500,10 @@
 	(no_connect
 		(at 325.12 246.38)
 		(uuid "34a286d9-d972-4c73-8514-0f666078e258")
+	)
+	(no_connect
+		(at 381 205.74)
+		(uuid "4099022b-1193-418c-be18-fe13c8b3db76")
 	)
 	(no_connect
 		(at 322.58 246.38)
@@ -6665,16 +6459,6 @@
 	)
 	(wire
 		(pts
-			(xy 400.05 233.68) (xy 403.86 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ec05cf8-e0b7-49af-966a-39c562d9b6cd")
-	)
-	(wire
-		(pts
 			(xy 238.76 335.28) (xy 238.76 332.74)
 		)
 		(stroke
@@ -6722,16 +6506,6 @@
 			(type default)
 		)
 		(uuid "570d6a30-c277-4138-b256-4202cce76927")
-	)
-	(wire
-		(pts
-			(xy 403.86 226.06) (xy 403.86 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "576dba10-9882-4f45-b854-00e87b5810b7")
 	)
 	(wire
 		(pts
@@ -7022,16 +6796,6 @@
 			(type default)
 		)
 		(uuid "71f17fb9-eafb-4adf-80e0-cedf2193f899")
-	)
-	(wire
-		(pts
-			(xy 403.86 236.22) (xy 403.86 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72626c87-c067-4265-afab-eb665688e293")
 	)
 	(wire
 		(pts
@@ -8102,16 +7866,6 @@
 			(type default)
 		)
 		(uuid "eac0f1a5-ff13-4022-96ec-6651b2845592")
-	)
-	(wire
-		(pts
-			(xy 391.16 233.68) (xy 394.97 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb45c30b-d522-4152-9e5a-bb6a58ec2144")
 	)
 	(wire
 		(pts
@@ -9313,16 +9067,6 @@
 		)
 		(uuid "b8bf69ca-0e32-426d-8fde-4b58a2ab0bc5")
 	)
-	(label "SA_MODE"
-		(at 391.16 233.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b91f71c9-93bc-4794-a6f2-81c123ca6db8")
-	)
 	(label "DAC8N"
 		(at 449.58 191.77 0)
 		(effects
@@ -9572,16 +9316,6 @@
 			(justify right bottom)
 		)
 		(uuid "ea2bae8f-1354-44a8-b52b-14e063bf44ef")
-	)
-	(label "SA_MODE"
-		(at 381 205.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea682ec2-61a8-413e-b87e-537ad8021b3f")
 	)
 	(label "DAC7N"
 		(at 320.04 133.35 90)
@@ -10837,80 +10571,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 408.94 233.68 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22e1567b-404c-49f9-9de7-e7ee6e50466f")
-		(property "Reference" "J12"
-			(at 410.21 232.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 410.21 234.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 408.94 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 408.94 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 408.94 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "774242de-ed96-40fc-b4eb-b995c297f036")
-		)
-		(pin "2"
-			(uuid "6d230154-c37b-43b5-81b1-19c4a085f24b")
-		)
-		(pin "3"
-			(uuid "7a197d2a-93d0-4b4d-a877-4a3cfb4cede1")
-		)
-		(instances
-			(project ""
-				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 204.47 325.12 0)
 		(unit 1)
@@ -10928,7 +10588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_MCU"
+		(property "Value" "+3V3"
 			(at 204.47 321.564 0)
 			(effects
 				(font
@@ -12767,72 +12427,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 403.86 240.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f3be526-81c0-4189-9bd0-e3416cee420e")
-		(property "Reference" "#PWR024"
-			(at 403.86 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 403.86 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 403.86 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 403.86 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 403.86 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8118352-3e11-433e-b88b-d8c5294d682a")
-		)
-		(instances
-			(project "MCU_DAC_board"
-				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 242.57 203.2 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13093,71 +12687,6 @@
 			(project "MCU_DAC_board"
 				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 335.28 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6dc2838a-08d1-47fa-a5f1-fc0fee18748b")
-		(property "Reference" "TP10"
-			(at 328.93 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_REF"
-			(at 331.978 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "project_lib:TP_1.8x1mm"
-			(at 335.28 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 335.28 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 335.28 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "687bb9c7-b6f3-4400-bfec-4115f96b7e09")
-		)
-		(instances
-			(project "MCU_DAC_board"
-				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2"
-					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -13579,7 +13108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_MCU"
+		(property "Value" "+3V3"
 			(at 192.278 353.06 90)
 			(effects
 				(font
@@ -15271,71 +14800,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 403.86 226.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c85d50ed-924b-4750-ad84-965697e5560e")
-		(property "Reference" "#PWR023"
-			(at 403.86 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 403.86 222.504 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 403.86 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 403.86 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 403.86 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da07947e-81af-4a01-b09d-a60b032a35b3")
-		)
-		(instances
-			(project "MCU_DAC_board"
-				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 328.93 325.12 0)
 		(unit 1)
@@ -15530,73 +14994,6 @@
 			(project "MCU_DAC_board"
 				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 397.51 233.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cdce7556-bf8e-4a38-a87a-9182bed3d5cc")
-		(property "Reference" "R40"
-			(at 397.764 230.632 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k"
-			(at 397.51 231.902 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 397.51 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 397.51 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 397.51 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b455a699-29ee-4292-8cb4-7460eb7d35fd")
-		)
-		(pin "1"
-			(uuid "3fdd9be6-3b96-4414-82b8-3a3847897fa4")
-		)
-		(instances
-			(project "MCU_DAC_board"
-				(path "/04313b52-c86e-4005-b50d-74ee3e5645b2"
-					(reference "R40")
 					(unit 1)
 				)
 			)
