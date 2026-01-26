@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "991395a4-3885-4774-b551-0bfe029123d3")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -106,10 +110,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint_2Pole"
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -234,10 +241,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -304,19 +314,19 @@
 			)
 			(symbol "Conn_02x04_Odd_Even_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 3.81)
+					(end 3.81 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -337,8 +347,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -348,19 +358,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 3.81 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -370,8 +369,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
+					(start 3.81 2.667)
+					(end 2.54 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -392,8 +391,19 @@
 					)
 				)
 				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -421,24 +431,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
@@ -449,24 +441,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -493,24 +467,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_7"
@@ -521,6 +477,60 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -547,11 +557,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -656,9 +671,9 @@
 					)
 				)
 				(arc
-					(start 1.524 -0.762)
+					(start -1.524 -0.762)
 					(mid 0 -0.3734)
-					(end -1.524 -0.762)
+					(end 1.524 -0.762)
 					(stroke
 						(width 0.3048)
 						(type default)
@@ -706,12 +721,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+24V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -783,7 +803,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -795,7 +815,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -826,12 +846,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -922,6 +947,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "project_lib:691137710002"
 			(pin_names
@@ -999,17 +1025,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 -1.27)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -2.54 -1.778) (xy -2.54 -2.54)
@@ -1028,6 +1043,17 @@
 					)
 					(stroke
 						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1095,7 +1121,68 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text_box "Wires to speakers\n"
+		(exclude_from_sim no)
+		(at 152.4 33.02 0)
+		(size 10.16 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "461e6fc9-67b9-4697-ba6a-82e213e7dec4")
+	)
+	(text_box "Spots for ground clip of oscilloscope probes"
+		(exclude_from_sim no)
+		(at 40.64 45.72 0)
+		(size 15.24 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7ceadb16-37eb-4490-90f2-f7383719f570")
+	)
+	(text_box "Power Connectors on both sides to make board symmetrical\n"
+		(exclude_from_sim no)
+		(at 81.28 17.78 0)
+		(size 20.32 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d16f3d3f-628b-44ba-894e-34ad2a8fcbc8")
 	)
 	(junction
 		(at 35.56 46.99)
@@ -2119,66 +2206,8 @@
 		)
 		(uuid "fe8ff164-6523-4146-9263-636039253fce")
 	)
-	(text_box "Wires to speakers\n"
-		(exclude_from_sim no)
-		(at 152.4 33.02 0)
-		(size 10.16 7.62)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "461e6fc9-67b9-4697-ba6a-82e213e7dec4")
-	)
-	(text_box "Spots for ground clip of oscilloscope probes"
-		(exclude_from_sim no)
-		(at 40.64 45.72 0)
-		(size 15.24 12.7)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "7ceadb16-37eb-4490-90f2-f7383719f570")
-	)
-	(text_box "Power Connectors on both sides to make board symmetrical\n"
-		(exclude_from_sim no)
-		(at 81.28 17.78 0)
-		(size 20.32 12.7)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "d16f3d3f-628b-44ba-894e-34ad2a8fcbc8")
-	)
 	(label "In2N"
 		(at 67.31 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2189,7 +2218,6 @@
 	)
 	(label "In1N"
 		(at 52.07 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2200,7 +2228,6 @@
 	)
 	(label "In4N"
 		(at 67.31 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2211,7 +2238,6 @@
 	)
 	(label "In1P"
 		(at 67.31 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2222,7 +2248,6 @@
 	)
 	(label "In4N"
 		(at 52.07 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2233,7 +2258,6 @@
 	)
 	(label "In4P"
 		(at 34.29 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2244,7 +2268,6 @@
 	)
 	(label "In4P"
 		(at 67.31 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2255,7 +2278,6 @@
 	)
 	(label "In3N"
 		(at 67.31 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2266,7 +2288,6 @@
 	)
 	(label "In2N"
 		(at 52.07 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2277,7 +2298,6 @@
 	)
 	(label "In1N"
 		(at 67.31 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2288,7 +2308,6 @@
 	)
 	(label "In2P"
 		(at 34.29 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2299,7 +2318,6 @@
 	)
 	(label "In1P"
 		(at 34.29 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2310,7 +2328,6 @@
 	)
 	(label "In3N"
 		(at 52.07 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2321,7 +2338,6 @@
 	)
 	(label "In2P"
 		(at 67.31 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2332,7 +2348,6 @@
 	)
 	(label "In3P"
 		(at 67.31 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2343,7 +2358,6 @@
 	)
 	(label "In3P"
 		(at 34.29 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3606,6 +3620,10 @@
 	(sheet
 		(at 111.76 139.7)
 		(size 22.86 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3635,43 +3653,43 @@
 		)
 		(pin "OutN" output
 			(at 134.62 153.67 0)
+			(uuid "5b883d42-25e4-4d36-a052-44b598ae23dd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5b883d42-25e4-4d36-a052-44b598ae23dd")
 		)
 		(pin "OutP" output
 			(at 134.62 146.05 0)
+			(uuid "3cbedefa-3bb2-437e-8e9a-d622561bbe1e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3cbedefa-3bb2-437e-8e9a-d622561bbe1e")
 		)
 		(pin "InN" input
 			(at 111.76 153.67 180)
+			(uuid "db5766e5-e369-4565-99d5-6981a2b6dc3d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "db5766e5-e369-4565-99d5-6981a2b6dc3d")
 		)
 		(pin "InP" input
 			(at 111.76 146.05 180)
+			(uuid "80b61cc4-bb15-4980-a4e0-079f7988c7b3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "80b61cc4-bb15-4980-a4e0-079f7988c7b3")
 		)
 		(instances
 			(project "Amplifier_board"
@@ -3684,6 +3702,10 @@
 	(sheet
 		(at 111.76 35.56)
 		(size 22.86 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3713,43 +3735,43 @@
 		)
 		(pin "OutN" output
 			(at 134.62 49.53 0)
+			(uuid "92cc0f56-46a6-472a-8686-c81dac48a20e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "92cc0f56-46a6-472a-8686-c81dac48a20e")
 		)
 		(pin "OutP" output
 			(at 134.62 41.91 0)
+			(uuid "e1840869-f21f-4e79-875c-8ea90e106e1d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e1840869-f21f-4e79-875c-8ea90e106e1d")
 		)
 		(pin "InN" input
 			(at 111.76 49.53 180)
+			(uuid "1a42fe76-8e5e-4c24-9e0c-4916866d8c87")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1a42fe76-8e5e-4c24-9e0c-4916866d8c87")
 		)
 		(pin "InP" input
 			(at 111.76 41.91 180)
+			(uuid "5106365b-007e-4571-aec4-de903ad0bd98")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5106365b-007e-4571-aec4-de903ad0bd98")
 		)
 		(instances
 			(project "Amplifier_board"
@@ -3762,6 +3784,10 @@
 	(sheet
 		(at 111.76 104.14)
 		(size 22.86 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3791,43 +3817,43 @@
 		)
 		(pin "OutN" output
 			(at 134.62 118.11 0)
+			(uuid "621654b8-5762-49fc-89d3-f5b09f1da8f1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "621654b8-5762-49fc-89d3-f5b09f1da8f1")
 		)
 		(pin "OutP" output
 			(at 134.62 110.49 0)
+			(uuid "41ebafbe-9cb3-4e8f-8233-8b6f82a88e9b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "41ebafbe-9cb3-4e8f-8233-8b6f82a88e9b")
 		)
 		(pin "InN" input
 			(at 111.76 118.11 180)
+			(uuid "d8de17e8-adaa-46a6-b875-57e03a1491f0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d8de17e8-adaa-46a6-b875-57e03a1491f0")
 		)
 		(pin "InP" input
 			(at 111.76 110.49 180)
+			(uuid "60c26b1e-df25-4d3a-864b-652e048239e0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "60c26b1e-df25-4d3a-864b-652e048239e0")
 		)
 		(instances
 			(project "Amplifier_board"
@@ -3840,6 +3866,10 @@
 	(sheet
 		(at 111.76 71.12)
 		(size 22.86 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3869,43 +3899,43 @@
 		)
 		(pin "OutN" output
 			(at 134.62 85.09 0)
+			(uuid "cd81bdb1-5586-45ca-9d48-39e260cea0af")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cd81bdb1-5586-45ca-9d48-39e260cea0af")
 		)
 		(pin "OutP" output
 			(at 134.62 77.47 0)
+			(uuid "9ba0e5b9-3ffa-4718-b1b6-d8f27c0ec8e5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9ba0e5b9-3ffa-4718-b1b6-d8f27c0ec8e5")
 		)
 		(pin "InN" input
 			(at 111.76 85.09 180)
+			(uuid "429eddc1-53fa-4c08-8f3a-028405e3d84e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "429eddc1-53fa-4c08-8f3a-028405e3d84e")
 		)
 		(pin "InP" input
 			(at 111.76 77.47 180)
+			(uuid "48b7411d-df70-4659-959a-aea0f45d362d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "48b7411d-df70-4659-959a-aea0f45d362d")
 		)
 		(instances
 			(project "Amplifier_board"
@@ -3920,4 +3950,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
